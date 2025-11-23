@@ -1,23 +1,21 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Khuang Ming Jeremy Alexander - Database & IoT Specialist",
+  author: "Khuang Ming Jeremy Alexander",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Computer Science student specializing in Database Architecture and Scalable Backend Systems. Focused on optimizing IoT data pipelines for high-performance data management.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/Jeremy-small.jpg",
   navLinks: [
     { text: "Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    { text: "LinkedIn", href: "https://www.linkedin.com/in/jeremy-alexander-495087389/" },
+    { text: "Github", href: "https://github.com/JeremyAlexander123123" },
+    { text: "Instagram", href: "https://www.instagram.com/jeremy.alex_" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,73 +23,55 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
+    name: "Khuang Ming Jeremy Alexander",
+    specialty: "Database and Internet of Things Specialist",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+      "Database Architect specializing in optimizing data structures, implementing secure database solutions for IoT applications, and enabling efficient data management for analytics and insights from connected environments.",
+    email: "jeremy.daunan@gmail.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "BINUS University",
+      position: "Student Mentor",
+      startDate: "August 2024",
+      endDate: "January 2025",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Guided first-year and second-year students through foundational Computer Science subjects, helping them strengthen their understanding of programming, algorithms, and problem-solving.",
+        "Provided weekly mentoring sessions covering academic materials, practical exercises, and exam preparation, resulting in improved student performance and higher class engagement.",
+        "Supported students in adapting to university life by giving academic advice, study strategies, and technical guidance in course-related projects."
       ],
-    },
-    {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
-      summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
-      ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
     },
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "CheckYuk-AI-ChatBot",
+      summary: "An AI-powered health assistant providing personalized wellness guidance and support.",
+      linkPreview: "https://github.com/JeremyAlexander123123/CheckYuk-AI-ChatBot",
+      linkSource: "https://github.com/JeremyAlexander123123/CheckYuk-AI-ChatBot",
+      image: "/chatbot.png",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "Salary Analytics",
+      summary: "A data analytics platform focused on exploring and visualizing employee salary data.",
+      linkPreview: "https://www.canva.com/design/DAGqD4Hgsho/pHxl8unuDL38Sxdc6wA1Ng/edit",
+      linkSource: "https://colab.research.google.com/drive/17BZf1HNWw_9gp180B3bQyDcfb24yPDN2?usp=sharing",
+      image: "/Analytics.png",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Wingman AI",
+      summary: "A chatbot AI offering personalized advice and responses for your romantic interactions.",
+      linkPreview: "https://www.figma.com/design/f4giPuxoJZAsfU9BMBrbZ5/Wingman?node-id=0-1&p=f&t=VTkODC9TBC4FCJZR-0",
+      linkSource: "https://github.com/JeremyAlexander123123/AI-AOL",
+      image: "/Wingman.png",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
-    `,
-    image: "/alejandro-big.jpg",
+    Hi, I am Khuang Ming Jeremy Alexander, a 5th-semester Computer Science student at BINUS University with a passion for developing efficient database systems, backend services, and system architecture.
+    I have a strong interest in designing, implementing, and optimizing database schemas and clean, modern backend logic. My experience from both university and personal projects has provided me with a practical understanding of development workflows, team collaboration, and version control.
+    I am actively seeking an internship opportunity to contribute to real-world projects, particularly those focused on data management and backend systems. I am highly motivated, a fast learner, and eager to grow into a more proficient engineer.
+`,
+    image: "/Jeremy.jpg"
   },
 };
 
